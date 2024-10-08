@@ -1,7 +1,7 @@
 {
-  "resourceName": "S3dropbox",
-  "policyUUID": "e38ab861",
-  "bucketName": "mydropbox3",
+  "resourceName": "s3dropbox24",
+  "policyUUID": "a42abdc0",
+  "bucketName": "mydropbox24",
   "storageAccess": "auth",
   "guestAccess": [],
   "authAccess": [

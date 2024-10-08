@@ -18,19 +18,9 @@
     }
   },
   "auth": {
-    "mydropbox428b7319428b7319": {
+    "mydropbox7a636018": {
       "customAuth": false,
-      "dependsOn": [
-        {
-          "attributes": [
-            "Arn",
-            "Name"
-          ],
-          "category": "function",
-          "resourceName": "mydropbox428b7319428b7319CustomMessage",
-          "triggerProvider": "Cognito"
-        }
-      ],
+      "dependsOn": [],
       "frontendAuthConfig": {
         "mfaConfiguration": "OFF",
         "mfaTypes": [
@@ -41,10 +31,7 @@
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "EMAIL",
-          "GENDER",
-          "NAME",
-          "PHONE_NUMBER"
+          "EMAIL"
         ],
         "socialProviders": [],
         "usernameAttributes": [
@@ -56,21 +43,6 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
-    },
-    "userPoolGroups": {
-      "dependsOn": [
-        {
-          "attributes": [
-            "UserPoolId",
-            "AppClientIDWeb",
-            "AppClientID"
-          ],
-          "category": "auth",
-          "resourceName": "mydropbox428b7319428b7319"
-        }
-      ],
-      "providerPlugin": "awscloudformation",
-      "service": "Cognito-UserPool-Groups"
     }
   },
   "function": {
@@ -85,8 +57,89 @@
       "service": "Lambda"
     }
   },
+  "hosting": {
+    "amplifyhosting": {
+      "providerPlugin": "awscloudformation",
+      "service": "amplifyhosting",
+      "type": "manual"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_S3Triggera6a5d13f_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "S3Triggera6a5d13f"
+        }
+      ]
+    },
+    "AMPLIFY_function_S3Triggera6a5d13f_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "S3Triggera6a5d13f"
+        }
+      ]
+    },
+    "AMPLIFY_function_mydropbox428b7319428b7319CustomMessage_EMAILMESSAGE": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mydropbox428b7319428b7319CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_mydropbox428b7319428b7319CustomMessage_EMAILSUBJECT": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mydropbox428b7319428b7319CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_mydropbox428b7319428b7319CustomMessage_REDIRECTURL": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mydropbox428b7319428b7319CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_mydropbox428b7319428b7319CustomMessage_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mydropbox428b7319428b7319CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_function_mydropbox428b7319428b7319CustomMessage_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mydropbox428b7319428b7319CustomMessage"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    }
+  },
   "storage": {
-    "S3dropbox": {
+    "s3dropbox24": {
       "dependsOn": [
         {
           "attributes": [

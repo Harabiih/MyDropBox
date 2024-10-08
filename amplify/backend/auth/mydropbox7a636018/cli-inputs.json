@@ -1,8 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "resourceNameTruncated": "mydrop428b7319",
-    "userPoolName": "mydropbox",
+    "identityPoolName": "mydropbox7a636018_identitypool_7a636018",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "mydrop7a636018",
+    "userPoolName": "mydropbox7a636018_userpool_7a636018",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -12,16 +14,13 @@
     ],
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
-    "emailVerificationSubject": "SIGNUP VERIFICATION",
+    "emailVerificationSubject": "Your verification code",
     "emailVerificationMessage": "Your verification code is {####}",
     "defaultPasswordPolicy": false,
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-      "email",
-      "gender",
-      "name",
-      "phone_number"
+      "email"
     ],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
@@ -32,29 +31,17 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "mydrop428b7319_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "mydrop7a636018_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "428b7319",
-    "resourceName": "mydropbox428b7319428b7319",
-    "authSelections": "userPoolOnly",
-    "useDefault": "manual",
+    "sharedId": "7a636018",
+    "resourceName": "mydropbox7a636018",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "default",
     "usernameAttributes": [
       "email"
     ],
-    "userPoolGroups": true,
-    "adminQueries": true,
-    "triggers": {
-      "CustomMessage": [
-        "verification-link"
-      ]
-    },
-    "hostedUI": false,
-    "userPoolGroupList": [
-      "mydropbox",
-      "mydropbox2"
-    ],
+    "userPoolGroupList": [],
     "serviceName": "Cognito",
-    "verificationBucketName": "mydropbox428b7319428b7319verificationbucket",
     "usernameCaseSensitive": false,
     "useEnabledMfas": true
   }

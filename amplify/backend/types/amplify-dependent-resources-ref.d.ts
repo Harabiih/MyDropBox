@@ -7,10 +7,11 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "auth": {
-    "mydropbox428b7319428b7319": {
+    "mydropbox7a636018": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
-      "CreatedSNSRole": "string",
+      "IdentityPoolId": "string",
+      "IdentityPoolName": "string",
       "UserPoolArn": "string",
       "UserPoolId": "string",
       "UserPoolName": "string"
@@ -33,7 +34,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "storage": {
-    "S3dropbox": {
+    "s3dropbox24": {
       "BucketName": "string",
       "Region": "string"
     }
