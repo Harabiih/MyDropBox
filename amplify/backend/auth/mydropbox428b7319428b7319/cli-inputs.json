@@ -1,0 +1,61 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "resourceNameTruncated": "mydrop428b7319",
+    "userPoolName": "mydropbox",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "SIGNUP VERIFICATION",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email",
+      "gender",
+      "name",
+      "phone_number"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "mydrop428b7319_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "428b7319",
+    "resourceName": "mydropbox428b7319428b7319",
+    "authSelections": "userPoolOnly",
+    "useDefault": "manual",
+    "usernameAttributes": [
+      "email"
+    ],
+    "userPoolGroups": true,
+    "adminQueries": true,
+    "triggers": {
+      "CustomMessage": [
+        "verification-link"
+      ]
+    },
+    "hostedUI": false,
+    "userPoolGroupList": [
+      "mydropbox",
+      "mydropbox2"
+    ],
+    "serviceName": "Cognito",
+    "verificationBucketName": "mydropbox428b7319428b7319verificationbucket",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}

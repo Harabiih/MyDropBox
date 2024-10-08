@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mydropbox-dev-c1a25-authRole",
+      "UnauthRoleArn": "arn:aws:iam::471112894064:role/amplify-mydropbox-dev-c1a25-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::471112894064:role/amplify-mydropbox-dev-c1a25-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-mydropbox-dev-c1a25-deployment",
+      "UnauthRoleName": "amplify-mydropbox-dev-c1a25-unauthRole",
+      "StackName": "amplify-mydropbox-dev-c1a25",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:471112894064:stack/amplify-mydropbox-dev-c1a25/7aed1e50-8576-11ef-b845-02a4e4b5d3b3",
+      "AmplifyAppId": "d3gywm0uor0kj"
+    },
+    "categories": {
+      "function": {
+        "S3Triggera6a5d13f": {
+          "deploymentBucketName": "amplify-mydropbox-dev-c1a25-deployment",
+          "s3Key": "amplify-builds/S3Triggera6a5d13f-547a534668705541354f-build.zip"
+        },
+        "mydropbox428b7319428b7319CustomMessage": {
+          "REDIRECTURL": "",
+          "EMAILSUBJECT": "CONFIRMATION EMAIL",
+          "EMAILMESSAGE": ""
+        }
+      },
+      "api": {
+        "mydropbox": {}
+      },
+      "storage": {
+        "S3dropbox": {}
+      },
+      "auth": {
+        "mydropbox428b7319428b7319": {}
+      }
+    }
+  }
+}
