@@ -26,6 +26,12 @@
       },
       "storage": {
         "S3dropbox": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d24n46u960pvi2",
+          "type": "manual"
+        }
       }
     }
   }
