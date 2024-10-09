@@ -1,7 +1,7 @@
 {
-  "resourceName": "s3dropbox24",
-  "policyUUID": "a42abdc0",
-  "bucketName": "mydropbox24",
+  "resourceName": "S3dropbox",
+  "policyUUID": "61f48315",
+  "bucketName": "mydropbox",
   "storageAccess": "auth",
   "guestAccess": [],
   "authAccess": [
@@ -9,6 +9,6 @@
     "READ",
     "DELETE"
   ],
-  "triggerFunction": "S3Triggera6a5d13f",
+  "triggerFunction": "S3Trigger8a8d610f",
   "groupAccess": {}
 }

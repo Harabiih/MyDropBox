@@ -18,7 +18,7 @@
     }
   },
   "auth": {
-    "mydropbox7a636018": {
+    "mydropbox9823b28f": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -46,100 +46,32 @@
     }
   },
   "function": {
-    "S3Triggera6a5d13f": {
+    "S3Trigger8a8d610f": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
-    },
-    "mydropbox428b7319428b7319CustomMessage": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    }
-  },
-  "hosting": {
-    "amplifyhosting": {
-      "providerPlugin": "awscloudformation",
-      "service": "amplifyhosting",
-      "type": "manual"
     }
   },
   "parameters": {
-    "AMPLIFY_function_S3Triggera6a5d13f_deploymentBucketName": {
+    "AMPLIFY_function_S3Trigger8a8d610f_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "S3Triggera6a5d13f"
+          "resourceName": "S3Trigger8a8d610f"
         }
       ]
     },
-    "AMPLIFY_function_S3Triggera6a5d13f_s3Key": {
+    "AMPLIFY_function_S3Trigger8a8d610f_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "S3Triggera6a5d13f"
-        }
-      ]
-    },
-    "AMPLIFY_function_mydropbox428b7319428b7319CustomMessage_EMAILMESSAGE": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "mydropbox428b7319428b7319CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_mydropbox428b7319428b7319CustomMessage_EMAILSUBJECT": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "mydropbox428b7319428b7319CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_mydropbox428b7319428b7319CustomMessage_REDIRECTURL": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "mydropbox428b7319428b7319CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_mydropbox428b7319428b7319CustomMessage_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "mydropbox428b7319428b7319CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_function_mydropbox428b7319428b7319CustomMessage_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "mydropbox428b7319428b7319CustomMessage"
-        }
-      ]
-    },
-    "AMPLIFY_hosting_amplifyhosting_appId": {
-      "usedBy": [
-        {
-          "category": "hosting",
-          "resourceName": "amplifyhosting"
-        }
-      ]
-    },
-    "AMPLIFY_hosting_amplifyhosting_type": {
-      "usedBy": [
-        {
-          "category": "hosting",
-          "resourceName": "amplifyhosting"
+          "resourceName": "S3Trigger8a8d610f"
         }
       ]
     }
   },
   "storage": {
-    "s3dropbox24": {
+    "S3dropbox": {
       "dependsOn": [
         {
           "attributes": [
@@ -148,7 +80,7 @@
             "LambdaExecutionRole"
           ],
           "category": "function",
-          "resourceName": "S3Triggera6a5d13f"
+          "resourceName": "S3Trigger8a8d610f"
         }
       ],
       "providerPlugin": "awscloudformation",
